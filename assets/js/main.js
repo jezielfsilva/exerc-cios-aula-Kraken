@@ -1,22 +1,20 @@
-/*  Exercícios sovbre arrays */
+/*  Exercícios sobre arrays */
 
 /*  1 - Crie uma array com suas musicas favoritas
   (ao menos 5) */
-var favoriteMusic = ['The Scientist', 'Back At One', 'Light', 'Photograph', 'Ironic']; 
+var favoriteMusic = ['The Scientist', 'Back At One', 'Light', 'Photograph', 'Ironic'];
+
+console.log(favoriteMusic);
 
 /*  2 - Retire a primeira música e guarde em uma variável */
 
-favoriteMusic.shift();
-
-var excMusic = "The Scientist";
+var excMusic = favoriteMusic.shift();
 
 console.log(excMusic);
 
 /*  3 - Retire a ultima música e guarde em uma variável */
 
-favoriteMusic.pop();
-
-var Musicexcl = "Ironic";
+var Musicexcl = favoriteMusic.pop();
 
 console.log(Musicexcl);
 
@@ -25,13 +23,17 @@ console.log(Musicexcl);
 
   var artists = ['Coldplay', 'Brian McNight', 'Sleeping At Last', 'Nickelback', 'Alanis Morissette'];
 
+  console.log(artists);
+
   var art = artists.concat(favoriteMusic);
 
   console.log(art);
 
 /*  5 - Encontre a música com o maior nome dentro do array */
 
-console.log(art[5]);
+  const greaterSong = favoriteMusic.sort((a,b) => (a.length > b.length ? -1 : 1))[0];
+
+  console.log(greaterSong);
 
 
 /*  Exercícios sovbre objetos */
