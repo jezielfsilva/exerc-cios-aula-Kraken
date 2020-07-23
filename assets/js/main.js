@@ -8,9 +8,17 @@ var favoriteMusic = ['The Scientist', 'Back At One', 'Light', 'Photograph', 'Iro
 
 favoriteMusic.shift();
 
+var excMusic = "The Scientist";
+
+console.log(excMusic);
+
 /*  3 - Retire a ultima música e guarde em uma variável */
 
 favoriteMusic.pop();
+
+var Musicexcl = "Ironic";
+
+console.log(Musicexcl);
 
 /*  4 - Crie uma segundo array com os nomes dos cantores
   e junte ele com o array de musicas */
