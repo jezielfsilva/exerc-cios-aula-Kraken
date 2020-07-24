@@ -31,9 +31,9 @@ console.log(Musicexcl);
 
 /*  5 - Encontre a música com o maior nome dentro do array */
 
-  const greaterSong = favoriteMusic.sort((a,b) => (a.length > b.length ? -1 : 1))[0];
+  const bestSong = favoriteMusic.sort((a,b) => (a.length > b.length ? -1 : 1));
 
-  console.log(greaterSong);
+  console.log(bestSong[0]);
 
 
 /*  Exercícios sovbre objetos */
